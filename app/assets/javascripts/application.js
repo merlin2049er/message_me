@@ -27,7 +27,7 @@ submit_message = function() {
 
     if (e.keycode == 13){
       $('button').click();
-      e.target.varlue = "";
+      e.target.value = "";
     }
 
 
